@@ -18,22 +18,22 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/" className="hover:text-white transition">
+              <Link to="/" onClick={()=>scrollTo(0,0)} className="hover:text-white transition">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/gigs" className="hover:text-white transition">
+              <Link to="/gigs" onClick={()=>scrollTo(0,0)} className="hover:text-white transition">
                 Explore Gigs
               </Link>
             </li>
             <li>
-              <Link to="/create-gig" className="hover:text-white transition">
+              <Link to="/create-gig" onClick={()=>scrollTo(0,0)} className="hover:text-white transition">
                 Create Gig
               </Link>
             </li>
             <li>
-              <Link to="/login" className="hover:text-white transition">
+              <Link to="/login" onClick={()=>scrollTo(0,0)} className="hover:text-white transition">
                 Login
               </Link>
             </li>
